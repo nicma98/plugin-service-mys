@@ -1,0 +1,23 @@
+.action-btn{
+    margin: 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    flex-flow: wrap;
+    margin-top: 1rem;
+}
+.action-btn #btn-actualizar-textcomercial{
+    margin-right: .5rem;
+}
+
+.action-btn .loading{
+    background: url(spinner.gif) no-repeat;
+    background-size: auto;
+    background-size: 20px 20px;
+    display: block;
+    visibility: hidden;
+    opacity: .7;
+    width: 20px;
+    height: 20px;
+}

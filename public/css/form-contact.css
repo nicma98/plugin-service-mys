@@ -1,0 +1,47 @@
+.contact-cliente-sect form{
+    display: none;
+    margin: 0;
+    padding: 1rem;
+}
+
+.contact-cliente-sect form div.form-field{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact-cliente-sect form div.form-field label{
+    flex: 0 1 20%;
+}
+
+.contact-cliente-sect form div.form-field input{
+    display: block;
+    flex: 0 1 80%;
+}
+
+.contact-cliente-sect form div.form-field input{
+    border-radius: 3px;
+}
+
+.contact-cliente-sect form div.form-field input.no-valid, .contact-cliente-sect form div.form-field input.no-valid:focus{
+    border: solid #f79d9d 1px !important;
+}
+
+.contact-cliente-sect form .form-note{
+    margin-bottom: 1rem;
+    border: solid #f79d9d 1px;
+    background-color: #ffe3e3;
+    border-radius: 5px;
+    padding: .5rem 1.5rem;
+    display: none;
+}
+
+.contact-cliente-sect #msg-progress{
+    margin-bottom: 1rem;
+    border: solid #9ffb85 1px;
+    background-color: #ddf4d6;
+    border-radius: 5px;
+    padding: .5rem 1.5rem;
+    display: none;
+}
